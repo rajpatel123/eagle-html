@@ -1,0 +1,708 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Bootstrap 101 Template</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+  </head>
+   <style type="text/css">
+        
+        .bg-enquiry {
+    width: 30px;
+    height: 30px;
+    background: url(img/savaari-header-images.png) -104px -58px;
+}
+.bg-signin {
+    width: 30px;
+    height: 30px;
+    background: url(img/savaari-header-images.png) -154px -58px;
+}
+.bg-cc_support_desktop {
+    width: 196px;
+    height: 28px;
+    background: url(img/savaari-header-images.png) -10px -10px;
+    margin: auto;
+    display: block;
+}
+
+.form-control {
+    display: block;
+     width: 261px;
+ }
+ .bg-why_choose_us_5 {
+    width: 100px;
+    height: 100px;
+    background: url(img/savaari-cab-images.png) -261px -190px;
+}
+h2{ font-weight: bold;font-size: 14px; }
+    </style>
+
+  <body>
+   <header id="sv_header">
+  <div  class="row height-100per">
+    <div class="col-md-4 col height-100per">
+      <a  class="logo"  href="/">
+        <img alt="Savaari" class="" height="50px" src="img/logo.png"> 
+       
+      </a>
+    </div>
+    <div class="col-md-4 ">
+        
+        <div  class="customercareDesktop"> <div  class="bg-cc_support_desktop" style="margin-top: 8px"> </div></div>  
+    
+    </div>
+    <div  class="col-md-4 text-right">
+      <a class="user_login " >
+        
+        <div  class="bg-enquiry" style="margin: auto;"> </div> 
+        <span type="button" style="cursor: pointer;" class="" data-toggle="modal" data-target="#myModal">Send Enquiry</span>
+       
+
+        <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Login</h4>
+        </div>
+        <div class="modal-body">
+          
+
+
+            <div  class="mainContentBlock">
+      <form  class="ng-pristine ng-invalid ng-touched">
+        <input  class="form-control margin-top-10px ng-pristine ng-invalid ng-touched" formcontrolname="userEmailControl" placeholder="Email" type="text">
+        <!---->
+        <br>
+        <!---->
+        <input  class="form-control margin-top-20px ng-untouched ng-pristine ng-invalid" formcontrolname="userPasswordControl" placeholder="Password" type="password">
+        <!---->
+        <!---->
+        <div  class=" margin-top-10px float-left width-100per">
+          <a style="float: right;" class="float-right forgot-password">
+            Forgot Password?
+          </a>
+        </div>
+        <div  class="float-left width-100per">
+          <button  class="theme-button margin-left-5px" type="button">
+            <div  class=" hori-vertical-center">
+              <span  class="">Login</span>
+              <!---->
+            </div>
+          </button>
+          <button  class="theme-button-register" type="button">Register</button>
+        </div>
+        <div  class="errorLog text-right">
+          <!---->
+        </div>
+      </form>
+
+      <!---->
+    </div>
+
+
+
+        </div>
+        <div class="modal-footer">
+         
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  
+
+      </a>
+      <!----><a  class="user_login height-100per">
+         
+        <div class="bg-signin" style=" margin: auto;"> </div> 
+        <span  class="sign-in">Sign In</span>
+      </a>
+      <!---->
+    </div>
+  </div>
+</header>
+
+ <!-----------------------------------------------------------modifiy--------------------------------->
+
+ <div class="modifiy">
+   <div class="container">
+     <div class="row">
+       <div class="col-md-7">
+         <div  class="selectedCityList">
+                            Noida <span>&gt;</span> Delhi
+                                                       
+                             <span > &gt; Noida</span>
+                            
+                            <span  class="tripSubTrip">  (Round Trip)</span>                            
+                        </div>
+       </div>
+
+
+       <div class="col-md-5">
+         
+
+        <div  class="row">
+                        <div  class="col-4 col-lg-3 col-md-3 col-sm-3 col border-right-ccc padding-right-5px">
+                            <div  class="row">
+                                <div  class="col-9 col">
+                                    <div  class="selectedDateHead">Pick up</div>
+                                    <div  class="selectedDate">17-03-2020</div>
+                                </div>
+                                <div  class="col-3 col padding-left-5px text-right dateIcon">
+                                    <img  class="" src="" width="15px">
+                                </div>
+                            </div>
+                        </div>
+                        <!----><div  class="col-5 col-lg-3 col-md-3 col-sm-3 col border-right-ccc padding-left-5px padding-right-5px">
+                            <div  class="row">
+                                <div  class="col-9 col">
+                                    <div  class="selectedDateHead">Return</div>
+                                    <div  class="selectedDate">17-03-2020</div>
+                                </div>
+                                <div  class="col-3 col padding-left-5px text-right">
+                                    <img  class="" src="" width="15px">
+                                </div>
+                            </div>
+                        </div>
+                        <div  class="col-3 col-lg-3 col-md-3 col-sm-3 col">
+                            <div  class="row">
+                                <div  class="col-12 col padding-left-5px">
+                                    <div class="selectedDateHead">Time</div>
+                                    <!----><div  class="selectedDate">9:15 PM</div>
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </div>
+                    
+
+
+<button  class="modifySearch">Modify</button>
+
+       </div>
+     </div>
+   </div>
+ </div>
+  
+
+<!--------------------------------------------------cabe-------------------------------------------------------->
+
+<div class="list-car">
+  <div class="container">
+  <div class="row">
+    <div class="col-sm-offset-1 col-md-10 col-sm-offset-1">
+      <div class="carListBlock">
+        
+        <div class="image-text-care">
+          <div class="in-side-imgae"><img style="height: 83px; margin-left: -106px;" src="img/Savaari-Ertiga-Cab.jpg"></div>
+          <div style="margin-left: 15px; margin-top: 10px;" class="in-side-imgae"><h4 style="font-weight: bold; ">Toyota Etios</h4>
+            <p>or equivalent</p>
+            </div>
+
+
+        </div>
+
+
+        <div class="image-text-care">
+          
+          <h2>Includes 250 km</h2>
+
+        </div>
+
+        <div class="image-text-care">
+          
+          <div style="margin-left: 15px; margin-top: 10px;" class="in-side-imgae"><h4 style="font-weight: bold; ">₹ 3255</h4>
+            <p>Inclusive of GST</p>
+            </div>
+
+
+        </div>
+
+        <div class="image-text-care">
+          <button style="    margin-top: 27px;" class="select-button"> Select</button>
+        </div>
+
+      </div>
+
+
+
+    </div>
+  </div>
+</div>
+</div>
+
+
+<div class="list-car">
+  <div class="container">
+  <div class="row">
+    <div class="col-sm-offset-1 col-md-10 col-sm-offset-1">
+      <div class="carListBlock">
+        
+        <div class="image-text-care">
+          <div class="in-side-imgae"><img style="height: 83px; margin-left: -106px;" src="img/Savaari-Ertiga-Cab.jpg"></div>
+          <div style="margin-left: 15px; margin-top: 10px;" class="in-side-imgae"><h4 style="font-weight: bold; ">Toyota Etios</h4>
+            <p>or equivalent</p>
+            </div>
+
+
+        </div>
+
+
+        <div class="image-text-care">
+          
+          <h2>Includes 250 km</h2>
+
+        </div>
+
+        <div class="image-text-care">
+          
+          <div style="margin-left: 15px; margin-top: 10px;" class="in-side-imgae"><h4 style="font-weight: bold; ">₹ 3255</h4>
+            <p>Inclusive of GST</p>
+            </div>
+
+
+        </div>
+
+        <div class="image-text-care">
+          <button style="    margin-top: 27px;" class="select-button"> Select</button>
+        </div>
+
+      </div>
+
+
+
+    </div>
+  </div>
+</div>
+</div>
+
+<div class="list-car">
+  <div class="container">
+  <div class="row">
+    <div class="col-sm-offset-1 col-md-10 col-sm-offset-1">
+      <div class="carListBlock">
+        
+        <div class="image-text-care">
+          <div class="in-side-imgae"><img style="height: 83px; margin-left: -106px;" src="img/Savaari-Ertiga-Cab.jpg"></div>
+          <div style="margin-left: 15px; margin-top: 10px;" class="in-side-imgae"><h4 style="font-weight: bold; ">Toyota Etios</h4>
+            <p>or equivalent</p>
+            </div>
+
+
+        </div>
+
+
+        <div class="image-text-care">
+          
+          <h2>Includes 250 km</h2>
+
+        </div>
+
+        <div class="image-text-care">
+          
+          <div style="margin-left: 15px; margin-top: 10px;" class="in-side-imgae"><h4 style="font-weight: bold; ">₹ 3255</h4>
+            <p>Inclusive of GST</p>
+            </div>
+
+
+        </div>
+
+        <div class="image-text-care">
+          <button style="    margin-top: 27px;" class="select-button"> Select</button>
+        </div>
+
+      </div>
+
+
+
+    </div>
+  </div>
+</div>
+</div>
+
+
+<div class="list-car">
+  <div class="container">
+  <div class="row">
+    <div class="col-sm-offset-1 col-md-10 col-sm-offset-1">
+      <div class="carListBlock">
+        
+        <div class="image-text-care">
+          <div class="in-side-imgae"><img style="height: 83px; margin-left: -106px;" src="img/Savaari-Ertiga-Cab.jpg"></div>
+          <div style="margin-left: 15px; margin-top: 10px;" class="in-side-imgae"><h4 style="font-weight: bold; ">Toyota Etios</h4>
+            <p>or equivalent</p>
+            </div>
+
+
+        </div>
+
+
+        <div class="image-text-care">
+          
+          <h2>Includes 250 km</h2>
+
+        </div>
+
+        <div class="image-text-care">
+          
+          <div style="margin-left: 15px; margin-top: 10px;" class="in-side-imgae"><h4 style="font-weight: bold; ">₹ 3255</h4>
+            <p>Inclusive of GST</p>
+            </div>
+
+
+        </div>
+
+        <div class="image-text-care">
+          <button style="    margin-top: 27px;" class="select-button"> Select</button>
+        </div>
+
+      </div>
+
+
+
+    </div>
+  </div>
+</div>
+</div>
+
+
+<div class="list-car">
+  <div class="container">
+  <div class="row">
+    <div class="col-sm-offset-1 col-md-10 col-sm-offset-1">
+      <div class="carListBlock">
+        
+        <div class="image-text-care">
+          <div class="in-side-imgae"><img style="height: 83px; margin-left: -106px;" src="img/Savaari-Ertiga-Cab.jpg"></div>
+          <div style="margin-left: 15px; margin-top: 10px;" class="in-side-imgae"><h4 style="font-weight: bold; ">Toyota Etios</h4>
+            <p>or equivalent</p>
+            </div>
+
+
+        </div>
+
+
+        <div class="image-text-care">
+          
+          <h2>Includes 250 km</h2>
+
+        </div>
+
+        <div class="image-text-care">
+          
+          <div style="margin-left: 15px; margin-top: 10px;" class="in-side-imgae"><h4 style="font-weight: bold; ">₹ 3255</h4>
+            <p>Inclusive of GST</p>
+            </div>
+
+
+        </div>
+
+        <div class="image-text-care">
+          <button style="    margin-top: 27px;" class="select-button"> Select</button>
+        </div>
+
+      </div>
+
+
+
+    </div>
+  </div>
+</div>
+</div>
+
+
+<div class="list-car">
+  <div class="container">
+  <div class="row">
+    <div class="col-sm-offset-1 col-md-10 col-sm-offset-1">
+      <div class="carListBlock">
+        
+        <div class="image-text-care">
+          <div class="in-side-imgae"><img style="height: 83px; margin-left: -106px;" src="img/Savaari-Ertiga-Cab.jpg"></div>
+          <div style="margin-left: 15px; margin-top: 10px;" class="in-side-imgae"><h4 style="font-weight: bold; ">Toyota Etios</h4>
+            <p>or equivalent</p>
+            </div>
+
+
+        </div>
+
+
+        <div class="image-text-care">
+          
+          <h2>Includes 250 km</h2>
+
+        </div>
+
+        <div class="image-text-care">
+          
+          <div style="margin-left: 15px; margin-top: 10px;" class="in-side-imgae"><h4 style="font-weight: bold; ">₹ 3255</h4>
+            <p>Inclusive of GST</p>
+            </div>
+
+
+        </div>
+
+        <div class="image-text-care">
+          <button style="    margin-top: 27px;" class="select-button"> Select</button>
+        </div>
+
+      </div>
+
+
+
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+<!---
+<div class="footer">
+<div class="container">
+    <div class="row">
+        <div class="col-md-1"></div>
+        <div class="col-md-2 desktop-footer-block">
+            <h6>COMPANY</h6>
+            <ul>
+        <li>
+          <a href="/aboutus">About Us</a>
+        </li>
+        <li>
+          <a href="/press-release">Press Release</a>
+        </li>
+        <li>
+          <a href="/careers">Careers</a>
+        </li>
+        <li>
+          <a href="/privacy_policy">Privacy Policy</a>
+        </li>
+        <li>
+          <a href="/term-conditions">Terms &amp; Conditions</a>
+        </li>
+      </ul>
+        </div>
+
+
+        <div class="col-md-4 desktop-footer-block">
+            <h6>COMPANY</h6>
+            <ul>
+        <li>
+          <a href="/aboutus">About Us</a>
+        </li>
+        <li>
+          <a href="/press-release">Press Release</a>
+        </li>
+        <li>
+          <a href="/careers">Careers</a>
+        </li>
+        <li>
+          <a href="/privacy_policy">Privacy Policy</a>
+        </li>
+        <li>
+          <a href="/term-conditions">Terms &amp; Conditions</a>
+        </li>
+      </ul>
+        </div>
+
+
+        <div class="col-md-2 desktop-footer-block">
+            <h6>COMPANY</h6>
+            <ul>
+        <li>
+          <a href="/aboutus">About Us</a>
+        </li>
+        <li>
+          <a href="/press-release">Press Release</a>
+        </li>
+        <li>
+          <a href="/careers">Careers</a>
+        </li>
+        <li>
+          <a href="/privacy_policy">Privacy Policy</a>
+        </li>
+        <li>
+          <a href="/term-conditions">Terms &amp; Conditions</a>
+        </li>
+      </ul>
+        </div>
+
+
+<div class="col-md-1"></div>
+
+    </div>
+</div>
+</div>
+-->
+
+<div class="footer1">
+<div class="container">
+    <div class="row">
+        <div _ngcontent-c10="" class="row margin-0 desktop-footer-block">
+    
+    <div _ngcontent-c10="" class="col col-6 col-md-3 col-sm-6 col-lg-3">
+      <h6 _ngcontent-c10="">COMPANY</h6>
+      <ul _ngcontent-c10="">
+        <li _ngcontent-c10="">
+          <a _ngcontent-c10="" routerlink="/aboutus" target="_blank" href="/aboutus">About Us</a>
+        </li>
+        <li _ngcontent-c10="">
+          <a _ngcontent-c10="" routerlink="/press-release" target="_blank" href="/press-release">Press Release</a>
+        </li>
+        <li _ngcontent-c10="">
+          <a _ngcontent-c10="" routerlink="/careers" target="_blank" href="/careers">Careers</a>
+        </li>
+        <li _ngcontent-c10="">
+          <a _ngcontent-c10="" routerlink="/privacy_policy" target="_blank" href="/privacy_policy">Privacy Policy</a>
+        </li>
+        <li _ngcontent-c10="">
+          <a _ngcontent-c10="" routerlink="/term-conditions" target="_blank" href="/term-conditions">Terms &amp; Conditions</a>
+        </li>
+      </ul>
+    </div>
+    <div _ngcontent-c10="" class="col col-6 col-md-3 col-sm-6 col-lg-3">
+      <h6 _ngcontent-c10="">SERVICES</h6>
+      <ul _ngcontent-c10="">
+          <li _ngcontent-c10="">
+            <a _ngcontent-c10="" routerlink="/local-taxi/car-rentals" target="_blank" href="/local-taxi/car-rentals">Local Car Rentals</a>
+          </li>
+          <li _ngcontent-c10="">
+            <a _ngcontent-c10="" routerlink="/outstation-taxi/car-rentals" target="_blank" href="/outstation-taxi/car-rentals">Outstation Taxi</a>
+          </li>
+          <li _ngcontent-c10="">
+            <a _ngcontent-c10="" routerlink="/one-way-cabs" target="_blank" href="/one-way-cabs">One way cabs</a>
+          </li>
+          <li _ngcontent-c10="">
+            <a _ngcontent-c10="" routerlink="/corporate-car-rental" target="_blank" href="/corporate-car-rental">Corporate Car Rental</a>
+          </li>
+          <li _ngcontent-c10="">
+            <a _ngcontent-c10="" routerlink="/airport-taxi" target="_blank" href="/airport-taxi">Airport Taxi</a>
+          </li>
+        </ul>
+    </div>
+    <div _ngcontent-c10="" class="col col-6 col-md-3 col-sm-6 col-lg-3">
+      <h6 _ngcontent-c10="">GET IN TOUCH</h6>
+      <ul _ngcontent-c10="">
+          <li _ngcontent-c10="">
+            <a _ngcontent-c10="" routerlink="/contact-us" target="_blank" href="/contact-us">Contact Us</a>
+          </li>
+          <li _ngcontent-c10="">
+            <a _ngcontent-c10="" routerlink="/sitemap" target="_blank" href="/sitemap">Sitemap</a>
+          </li>
+          <li _ngcontent-c10="">
+            <a _ngcontent-c10="" routerlink="/sitemap.xml" target="_blank" href="/sitemap.xml">XML Sitemap</a>
+          </li>
+         
+        </ul>
+         <div _ngcontent-c10="" class="row margin-0 social-icons ">
+            <a _ngcontent-c10="" href="https://www.facebook.com/Savaari" rel="nofollow" target="_blank">
+            
+            <div _ngcontent-c10="" class="bg-facebook" style="display: inline-block;">
+            
+            </div>
+            </a>
+            <a _ngcontent-c10="" class="margin-left-5px" href="https://twitter.com/savaaricars" rel="nofollow" target="_blank">
+            
+            <div _ngcontent-c10="" class="bg-twitter" style="display: inline-block;">
+            
+            </div>
+            </a>
+            <a _ngcontent-c10="" class="margin-left-5px" href="https://plus.google.com/100564563724766275250/about" rel="nofollow" target="_blank">
+            
+            <div _ngcontent-c10="" class="bg-googleplus" style="display: inline-block;">
+            
+            </div>
+            </a>
+            <a _ngcontent-c10="" class="margin-left-5px" href="https://blog.savaari.com" rel="nofollow" target="_blank">
+            
+            <div _ngcontent-c10="" class="bg-blog" style="display: inline-block;">
+            
+            </div>
+            </a>
+          </div>
+    </div>
+    <div _ngcontent-c10="" class="top-cities">
+      <span _ngcontent-c10="">
+        <b _ngcontent-c10="" class="margin-right-10px">Car Rental in Cities:</b> 
+        <span _ngcontent-c10="">
+          <a _ngcontent-c10="" href="/bangalore/car-rental" target="_blank">Bangalore</a>
+        </span>
+        <span _ngcontent-c10="">
+          <a _ngcontent-c10="" href="/chennai/car-rental" target="_blank">Chennai</a>
+        </span>
+        <span _ngcontent-c10="">
+          <a _ngcontent-c10="" href="/hyderabad/car-rental" target="_blank">Hyderabad</a>
+        </span>
+        <span _ngcontent-c10="">
+          <a _ngcontent-c10="" href="/pune/car-rental" target="_blank">Pune</a>
+        </span>
+        <span _ngcontent-c10="">
+            <a _ngcontent-c10="" href="/mumbai/car-rental" target="_blank">Mumbai</a>
+        </span>
+        <span _ngcontent-c10="">
+            <a _ngcontent-c10="" href="/delhi/car-rental" target="_blank">Delhi</a>
+        </span>
+        <span _ngcontent-c10="">
+            <a _ngcontent-c10="" href="/kolkata/car-rental" target="_blank">Kolkata</a>
+        </span>
+        <span _ngcontent-c10="">
+            <a _ngcontent-c10="" href="/kochi/car-rental" target="_blank">Cochin</a>
+        </span>
+        <span _ngcontent-c10="">
+            <a _ngcontent-c10="" href="/chandigarh/car-rental" target="_blank">Chandigarh</a>
+        </span>
+        <span _ngcontent-c10="">
+            <a _ngcontent-c10="" href="/jaipur/car-rental" target="_blank">Jaipur</a>
+        </span>
+
+        <span _ngcontent-c10="">
+          <a _ngcontent-c10="" href="/goa/car-rental" target="_blank">Goa</a>
+        </span>
+        <span _ngcontent-c10="">
+          <a _ngcontent-c10="" href="/ahmedabad/car-rental" target="_blank">Ahmedabad</a>
+        </span>
+        <span _ngcontent-c10="">
+          <a _ngcontent-c10="" href="/coimbatore/car-rental" target="_blank">Coimbatore</a>
+        </span>
+      </span>
+    </div>
+    <div _ngcontent-c10="" class="most-popular">
+      <span _ngcontent-c10="" class="float-left">Most Popular Routes</span>
+      <span _ngcontent-c10="" class="float-right">- Show Less Cities</span>
+    </div>
+
+  </div>
+    </div>
+</div>
+</div>
+
+<div class="footer2">
+<div class="container">
+    <div class="row">
+        <div class="col-md-12 text-center">
+            © Copyright JPR Technosoft.com
+        </div>
+    </div>
+</div>
+</div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+  </body>
+</html>

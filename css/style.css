@@ -1,0 +1,357 @@
+#sv_header {
+    width: 100%;
+    padding: 10px;
+    border-bottom: 1px solid #dedede;
+    box-shadow: 0 0 14px 0 hsla(0,0%,62%,.6);
+    background: #fff;
+    height: 70px;
+}
+
+#sv_header .row {
+    width: 100%;
+    margin: 0;
+    display: -ms-flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+.height-100per {
+    height: 100%!important;
+}
+.row {
+    
+    flex-wrap: wrap;
+    
+}
+
+#sv_header .col, #sv_header a {
+    align-items: center;
+    -webkit-box-align: center;
+}
+
+#sv_header a {
+    display: flex; 
+}
+#sv_header .col, #sv_header a {
+    align-items: center;
+    -webkit-box-align: center;
+}
+
+#sv_header .user_login {
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    margin-left: 26px;
+}
+.bg-enquiry {
+    width: 30px;
+    height: 30px;
+    background: url(img/savaari-header-images.png) -104px -58px;
+}
+.bg-signin {
+    width: 30px;
+    height: 30px;
+    background: url(img/profile.png) -154px -58px;
+}
+#sv_header .user_login {
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+}
+.enquiry {
+    width: 91px;
+}
+.download-app, .enquiry {
+    color: #b58951;
+    font-size: 12px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.text-aria-million{ text-align: center; }
+.carspace-box {
+    text-align: center;
+    padding: 30px;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -o-transition: .5s;
+    transition: .5s;
+}
+
+.our-service{background-color: #f8f8f8; margin-top: 50px; padding-top: 35px;}
+.carspace-icon img {
+    width: auto;
+    height: 50px;
+}
+.alternate-block-color-title{
+    
+    text-align: center;
+    margin-top: 10px;
+}
+.bg-why_choose_us_5 {
+    width: 100px;
+    height: 100px;
+    background: url(img/savaari-cab-images.png) -261px -190px;
+}
+.alternate-block-color-title{ text-align: center; }
+.bg-feature_1 {
+    width: 210px;
+    height: 70px;
+    background: url(img/savaari-cab-images.png) -255px -10px;
+}
+.desktop-footer-block {
+    padding: 0;
+    list-style-type: none;
+}
+.footer1 {
+    margin-top: 50px;
+    background-color: #000000;
+    padding: 71px;
+    color: white;
+}
+.footer1 ul li a{ color: white; text-decoration: none; }
+.footer2{padding: 10px; background-color: #747373; }
+.theme-button {
+    background: #b58951;
+}
+
+.theme-button, .theme-button-register {
+   
+    border: none;
+    font-size: 13px;
+    margin-top: 20px;
+    color: #fff;
+    
+    padding: 0;
+    height: 30px;
+    width: 112px;
+    margin-left: 20px;
+}
+.form-control {
+    display: block;
+    
+        margin: auto;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-image: none;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+ .user_login1 {
+    display: inline-block;
+    /* text-decoration: none; */
+    /* text-align: center; */
+    /* margin-left: 26px; */
+    width: 100%;
+}
+
+.modal-content {
+    position: relative;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #999;
+    border: 1px solid rgba(0,0,0,.2);
+    border-radius: 6px;
+    -webkit-box-shadow: 0 3px 9px rgba(0,0,0,.5);
+    box-shadow: 0 3px 9px rgba(0,0,0,.5);
+    outline: 0;
+    width: 300px;
+    margin: auto;
+}
+.mainContentBlock {
+    padding: 10px;
+    float: left;
+    width: 100%;
+    position: relative;
+}
+.modal-title {
+    margin: 0;
+    line-height: 1.42857143;
+    padding: 0px 97px;
+}
+.modal-header {
+    padding: 15px;
+    border-bottom: none;
+}
+.theme-button, .theme-button-register {
+    border: none;
+    font-size: 13px;
+    margin-top: 20px;
+    color: #000;
+    
+    padding: 0;
+    height: 30px;
+    width: 110px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial;
+}
+
+/* Style tab links */
+.tablink {
+  background-color: #b58951;
+  color: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 15%;
+}
+
+.tablink:hover {
+  background-color: #777;
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+  color: white;
+  display: none;
+  padding: 100px 20px;
+  height: 100%;
+}
+
+
+#News {background-color: white;     width: 513px;    padding-bottom: 38px;}
+#Contact {background-color: white;     width: 513px; padding-bottom: 38px;}
+#About {background-color: white;     width: 513px; padding-bottom: 38px;    padding-top: 54px;}
+.tabcontent {
+    color: black;
+    display: none;
+    padding: 100px 20px;
+    height: 100%;
+}
+
+.h6, h6 {
+    font-size: 12px;
+        margin-left: 37px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.trip-date{ float: left; width: 100px;    margin-left: 2px; }
+.container1{ width: 447px;    margin-bottom: 29px;}
+.a {
+    color: #b58951;
+    text-decoration: none;
+}
+.trip-booking{ margin-top: -500px; }
+.mil{ margin-top: 50px; }
+
+
+
+
+
+
+
+
+
+.carListBlock {
+    min-height: 90px;
+    border: 1px solid #b58951;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+.list-car{ margin-top: 20px; }
+.in-side-imgae{float: left;}
+.select-button {
+    background: #1a77be;
+    background: -webkit-gradient(left top,right top,color-stop(0,#1a77be),color-stop(100%,#01aeed));
+    background: linear-gradient(90deg,#b58951 0,#b58951);
+        border: none;
+}
+.select-button, .select-button-Premium {
+    
+    display: inline-block;
+    color: #fff;
+    font-size: 22px;
+    font-weight: 700;
+    border-radius: 3px;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#1a77be",endColorstr="#01aeed",GradientType=1);
+}
+.image-text-care{float: left; margin-left: 114px;}
+.modifiy{ background-color: #ececec;     padding: 8px 0px 0px 0px; }
+.modifySearch{
+    float: right;
+        margin-top: -52px;
+    margin-right: 56px;
+    background: #1a77be;
+    background: -webkit-gradient(left top,right top,color-stop(0,#1a77be),
+        color-stop(100%,#01aeed));
+    background: linear-gradient(90deg,#b58951 0,#b58951);
+        border: none;color: #fff;
+    font-size: 22px;
+    font-weight: 700;
+    border-radius: 3px;
+}
+.phone-icon{ background-color: #b58951; margin-top: 30px; color: white;}
+.phone-icon h2{ font-weight: bold; margin-top: 135px; }
+.footer1 ul li{ display: block; }
+.departureDateBlock{margin-left: 38px;}
+.returnDateBlock{    margin-left: 91px;}
+.socal-media{ float: left;margin: 8px; }
+.table-price{margin-top: 100px;}
+.tex-price-color{ color: blue; }
+.like-page{float: right;}
+.like-page i{color: green;font-size: 15px;}
+.select-price{width: 129px;margin-left: 3px;}
+.pickUpTimeBlock{margin-left: 111px;float: left;}
+.ui-corner-all{width: 138px;}
+
+.form-control1 {
+    /* display: block; */
+    /* margin: auto; */
+    /* padding: .375rem .75rem; */
+    /* font-size: 1rem; */
+    /* line-height: 1.5; */
+    /* color: #495057; */
+    /* background-color: #fff; */
+    /* background-image: none; */
+    /* background-clip: padding-box; */
+    /* border: 1px solid #ced4da; */
+    /* border-radius: .25rem; */
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    width: 228px;
+}
+.form-control1 {
+        width: 260px;
+    display: block;
+    margin-left: -31px;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+}
+.enq-form{float: left;     color: #b58951;}

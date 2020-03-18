@@ -1,0 +1,357 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Bootstrap 101 Template</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  </head>
+   <style type="text/css">
+        
+        .bg-enquiry {
+    width: 30px;
+    height: 30px;
+    background: url(img/savaari-header-images.png) -104px -58px;
+}
+.bg-signin {
+    width: 30px;
+    height: 30px;
+    background: url(img/savaari-header-images.png) -154px -58px;
+}
+.bg-cc_support_desktop {
+    width: 196px;
+    height: 28px;
+    background: url(img/savaari-header-images.png) -10px -10px;
+    margin: auto;
+    display: block;
+}
+
+.rig-page{background: url(img/image2.jpg) ; height: 600px; padding: 20px; display: block; margin: auto;}
+.cl{clear: both;}
+.inside{ background-color: white; }
+.data-rg{ padding: 20px; }
+
+    </style>
+
+  <body>
+   <header id="sv_header">
+  <div  class="row height-100per">
+    <div class="col-md-4 col height-100per">
+      <a  class="logo"  href="/">
+        <img  class="" height="50px" src="img/logo.png"> 
+       
+      </a>
+    </div>
+    <div class="col-md-4 ">
+        
+        <div  class="customercareDesktop"> <div  class="bg-cc_support_desktop" style="margin-top: 8px"> </div></div>  
+    
+    </div>
+    <div  class="col-md-4 text-right">
+      <a class="user_login " >
+        
+        <div  class="bg-enquiry" style="margin: auto;"> </div> 
+        <span type="button" style="cursor: pointer;    color: #b58951;
+    font-weight: bold;" class="" data-toggle="modal" data-target="#myModal1">Enquiry</span>
+       
+
+    <div class="modal fade" id="myModal1" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 style="color: #b58951;" class="modal-title">Login</h4>
+        </div>
+        <div class="modal-body">
+          
+
+
+            
+      <div class="form-group">
+                            <p class="enq-form">I want car in</p>
+                            <input S class="form-control ng-pristine ng-invalid ng-touched" formcontrolname="writeToUsFromCityControl"  placeholder="Start typing city - e.g. Bangalore" role="combobox" type="search" aria-autocomplete="list" >
+                           
+                            
+      </div>
+      <div class="form-group">
+                            
+                            <input S class="form-control ng-pristine ng-invalid ng-touched" formcontrolname="writeToUsFromCityControl"  placeholder="Name" role="combobox" type="search" aria-autocomplete="list" >
+                           
+                            
+      </div>
+
+      <div class="form-group">
+      <div  class="input-group">
+                                <span  class="input-group-addon" id="basic-addon1">+91</span>
+                                <input  aria-describedby="basic-addon1" class="form-control ng-pristine ng-invalid ng-touched" formcontrolname="writeToUsPhoneControl" maxlength="10" placeholder="Mobile Number*" type="number">
+         </div>
+       </div>
+
+        <div class="form-group">
+                            
+                            <input S class="form-control ng-pristine ng-invalid ng-touched" formcontrolname="writeToUsFromCityControl"  placeholder="Email ID" role="combobox" type="search" aria-autocomplete="list" >
+                           
+                            
+      </div>
+         <div  class="form-group">
+                            <textarea  class="form-control ng-pristine ng-invalid ng-touched" formcontrolname="writeToUsCommentControl" placeholder="Your Enquiry/Comments/Suggestions" rows="5"></textarea>
+                           
+          </div>
+      
+
+      <button  class="theme-button margin-0" type="button">Submit</button>
+   
+
+
+
+        </div>
+        
+      </div>
+      
+    </div>
+  </div>
+  
+
+
+
+
+
+
+<div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 style="color: #b58951;" class="modal-title">Login</h4>
+        </div>
+        <div class="modal-body">
+          
+
+
+            
+      <form >
+        <input  class="form-control1 margin-top-10px ng-pristine ng-invalid ng-touched" formcontrolname="userEmailControl" placeholder="Email" type="text">
+        
+        <br>
+       
+        <input  class="form-control1 margin-top-20px ng-untouched ng-pristine ng-invalid" formcontrolname="userPasswordControl" placeholder="Password" type="password">
+        
+        
+        <div  class=" margin-top-10px float-left width-100per">
+          <a style="float: right;color: #b58951;" class="float-right forgot-password">
+            Forgot Password?
+          </a>
+        </div>
+        <div  class="">
+          <button  class="theme-button " type="button">
+            <div  class=" hori-vertical-center">
+              <span  class="">Login</span>
+              
+            </div>
+          </button>
+          <button  class="theme-button-register" type="button">Register</button>
+        </div>
+        <div  class="errorLog text-right">
+          <!---->
+        </div>
+      </form>
+
+      <!---->
+   
+
+
+
+        </div>
+        <br>
+      </div>
+      
+    </div>
+  </div>
+
+
+
+
+
+
+      </a>
+      <!----><a  class="user_login height-100per">
+         
+        <div class="bg-signin" style=" margin: auto;"> </div> 
+       
+    <span type="button" style="cursor: pointer;    color: #b58951;
+    font-weight: bold;" class="" data-toggle="modal" data-target="#myModal">Sign In</span>
+      </a>
+      
+    </div>
+  </div>
+</header>
+
+ 
+  
+
+
+
+<!--------------------------------------------------tab-------------------------------------------------------->
+
+<div class="rig-page">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-offset-8 col-md-4">
+
+        <div class="inside">
+          <div class="data-rg">
+            
+            <div class="form-group">
+      <div  class="input-group">
+                                <span  class="input-group-addon" id="basic-addon1">+91</span>
+                                <input  aria-describedby="basic-addon1" class="form-control ng-pristine ng-invalid ng-touched" formcontrolname="writeToUsPhoneControl" maxlength="10" placeholder="Mobile Number*" type="number">
+         </div>
+       </div>
+          </div>
+
+        </div>
+    </div>
+  </div>
+</div>
+</div>
+
+
+
+<div class="cl"></div>
+
+
+<div class="footer1">
+<div class="container">
+    <div class="row">
+        <div  class="row margin-0 desktop-footer-block">
+            
+    
+    <div  class="col-md-4">
+
+     <div class="col-md-6">
+          <h6 >About Eagle</h6>
+      <ul>
+        <li >
+          <a   href="">About Us</a>
+        </li>
+        <li>
+          <a    href="">Press Release</a>
+        </li>
+        <li >
+          <a    href="">Careers</a>
+        </li>
+        <li >
+          <a    href="">Privacy Policy</a>
+        </li>
+        <li>
+          <a   href="">Terms &amp; Conditions</a>
+        </li>
+      </ul>
+     </div>
+    
+    
+      <div class="col-md-6"><h6>Services</h6>
+      <ul>
+          <li >
+            <a  href="">Local Car Rentals</a>
+          </li>
+          <li>
+            <a  href="">Outstation Taxi</a>
+          </li>
+          <li >
+            <a   href="">One way cabs</a>
+          </li>
+          <li>
+            <a  href="">Corporate Car Rental</a>
+          </li>
+          <li>
+            <a href="">Airport Taxi</a>
+          </li>
+        </ul></div>
+    </div>
+
+
+
+
+    <div  class="col-md-5">
+     
+      <div class="col-md-6"> <h6 _ngcontent-c10="">Important Links</h6>
+          <ul>
+          <li>
+            <a href="">Contact Us</a>
+          </li>
+          <li >
+            <a  href="">Sitemap</a>
+          </li>
+          <li >
+            <a href="">XML Sitemap</a>
+          </li>
+         
+        </ul>
+      </div>
+
+
+      <div class="col-md-6"> <h6 >Popular Cities</h6>
+          <ul >
+          <li >
+            <a  href="">Bangalore</a>
+          </li>
+         <li >
+            <a  href="">Delhi</a>
+          </li>
+          <li >
+            <a  href="">Noida</a>
+          </li>
+         
+         
+        </ul>
+      </div>
+        
+    
+    
+
+        </div>
+        <div class="col-md-3">
+           <h6 style="    margin-left: 1px;">Social Media links</h6>
+                
+                
+                 <div class="socal-media"><i class="fa fa-facebook-official" style="font-size:34px"></i></div>
+                 <div class="socal-media"><i class="fa fa-twitter-square" style="font-size:34px"></i></div>
+                 <div class="socal-media"><i class="fa fa-whatsapp" style="font-size:34px"></i></i></div>
+            </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+<div class="footer2">
+<div class="container">
+    <div class="row">
+        <div class="col-md-12 text-center">
+            © Copyright JPR Technosoft.com
+        </div>
+    </div>
+</div>
+</div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+  </body>
+</html>
